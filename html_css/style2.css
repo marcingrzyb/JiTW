@@ -1,0 +1,156 @@
+body{
+background-color:#5BC8AC;
+font-family: 'Ubuntu', sans-serif;
+margin-left:auto;
+margin-right:auto;
+width:auto;
+}
+p:first-letter
+{
+color: #F18D9E;
+}
+
+.main{
+  background-color:#98DBC6;
+  margin-top: 0;
+  margin-left: 25%;
+  margin-right: 25%;
+  padding: 1px 16px;
+  height: auto;
+  max-width: 960px;
+}
+.menu{
+  font-size: 12px;
+  background-color:#98DBC6;
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-bottom: 35px;
+  max-width: 960px;
+
+}
+
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: #98DBC6;
+    position: relative;
+    top: 0;
+    overflow: hidden;
+    text-align: center;
+}
+
+.menu li {
+    float: left;
+    border-right: 2px solid #ffe6b3;
+}
+
+
+.menu li a {
+    display: block;
+    color: #000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+
+}
+
+.menu li a.active {
+    background-color: #F18D9E;
+    color: white;
+    cursor: default;
+}
+
+.menu li a:hover:not(.active) {
+    background-color: #F18D9E;
+    color: white;
+    cursor: default;
+}
+
+h1 {
+    color: #ffe6b3;
+    text-align: center;
+    letter-spacing: 3px;
+}
+h2 {
+    color: #ffc34d;
+    text-align: center;
+}
+h3 {
+
+    color: #ffaa00;
+    text-align: center;
+}
+p {
+  text-indent: 1.5em;
+  margin-top: 0
+}
+table, th, td{
+  background-color:#ffe6b3;
+  border: 3px solid #ffaa00;
+  text-align: center;
+  border-collapse: collapse;
+
+}
+td:nth-child(odd) {background-color: white;}
+thead{
+  font-weight: 700;
+  font-size: 22px;
+  color: #ffaa00;
+}
+tbody{
+  font-size: 17px;
+  color: #ffc34d;
+}
+tfoot{
+  font-size: 19px;
+  color: #ffc34d;
+}
+
+ol {
+    list-style: upper-roman;
+}
+ol ol{
+  list-style: lower-roman;
+}
+ol ol ol{
+  list-style: lower-greek;
+}
+#apic{
+
+  max-width: 25%;
+  max-height: 25%;
+  float: left;
+}
+#bpic{
+  float: right;
+  max-width: 25%;
+  max-height: 25%;
+}
+#hide{
+    display: none;
+}
+
+.title{
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-bottom: 25px;
+    font-size: 35px;
+    color: white;
+    background: #F18D9E;
+    max-width: 960px;
+    height: auto;
+    text-align: center;
+    letter-spacing: 5px;
+    padding: 35px 0px;
+	  text-transform: uppercase;
+    overflow: auto;
+
+}
+.valid{
+  float: right;
+}
+.opiski{
+display:none;
+}

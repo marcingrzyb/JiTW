@@ -1,0 +1,60 @@
+@media print{
+	body{
+        color: black;
+        background-color: white;
+				margin-left: 0;
+				margin-right: 0;
+    }
+    h1,h2,h3{
+      color:black;
+			margin-left: 0;
+			margin-right: 0;
+    }
+
+    .menu{
+        display: none;
+    }
+
+		.main{
+			margin-left: 0;
+			margin-right: 0;
+		}
+
+    p:first-letter{
+        color: black;
+    }
+
+    th, td {
+        border: 5px solid black;
+    }
+
+    th, tr{
+        color: black;
+    }
+
+    ol{
+        color: black;
+    }
+
+    #apic, #bpic{
+	filter: grayscale(100%);
+    }
+
+    .valid{
+	display:none;
+    }
+
+
+
+    @page  {
+				margin-left: 0;
+				margin-right: 0;
+    }
+
+    ol{
+        page-break-inside: avoid;
+    }
+    .title{
+			display:none;
+    }
+}
